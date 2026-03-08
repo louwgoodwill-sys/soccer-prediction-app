@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+*.ipynb_checkpoints
+
+# Streamlit
+.streamlit/
+*.streamlit
+
+# Virtual Environment
+venv/
+env/
+.env
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+
+# Project specific (optional)
+data/matches.csv  # Uncomment if you don't want to upload full dataset
+# model/*.pkl      # Uncomment if you don't want to upload model files
